@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+    padding: 0px 20px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding: 0px 20px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0px 20px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 0px 20px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding: 0px 20px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding: 0px 20px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 0px 20px;
+}
+
+.col-9 {
+    width: 75%;
+    padding: 0px 20px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding: 0px 20px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding: 0px 20px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.holidays-img {
+    position: relative;
+    margin-top: 25px;
+}
+
+.holidays-img img {
+    border-radius: 20px;
+}
+
+.fill-star {
+    fill: #f7c32e;
+    position: absolute;
+    bottom: 0px;
+    top: -38px;
+    left: -36px;
+}
+
+.booking-section {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.like-icon {
+    position: absolute;
+    margin-bottom: 80%;
+    margin-top: -30%;
+    width: 40px;
+    left: 20px;
+    z-index: 3;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+
+.avatar {
+    content: '';
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.avatar-1k {
+    content: '';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #5143d9;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+}
+.about-client {
+    margin-top: -110px;
+    margin-bottom: 20px;
+    margin-left:25px;
+    padding: 25px 85px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 20px;
+   
+
+}
+.Client-icon-1{
+    margin-left: -40px;
+    margin-top: 5px;
+   
+ }
+ .Client-icon{
+     margin-left: -15px;
+ }
+ 
+ .client {
+     font-size: 17px;
+     font-weight: 400;
+     margin-top: -10px;
+     margin-left: -50px;
+ }
+
+
+.holidays-img2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+.align-item {
+    align-items: center;
+}
+
+
+
+.dotted {
+    color: #5143d9;
+    opacity: 0.2;
+    height: 400px;
+    position: absolute;
+    bottom: -40px;
+    right: -15px;
+    z-index: -2;
+}
+.client-info {
+    content: '';
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    color: #0b0a12;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+    margin-top: -75px;
+    margin-right:-72px ;
+}
+
+.client-rating {
+    content: '';
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    color: #0b0a12;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-right: -60px;
+}
+.star {
+    color: #f7c32e;
+}
+
+.holidays-info {
+    padding-left: 40px;
+    margin-top: 25px;
+}
+
+.holidays-h2 {
+    font-size: 50px;
+    margin-bottom: 48px;
+    line-height: 1.25;
+    color: black;
+    font-weight: bold;
+    cursor: auto;
+}
+
+.holidays-p {
+    font-size: 16px;
+    margin-bottom: 48px;
+    color: #747579;
+}
+.main-section{
+    margin-top: -20px;
+}
+
+
+
+.holidays-icon {
+    width: 20px;
+    height: 20px;
+    color: #0cbc87;
+
+}
+
+.center {
+    width: 50px;
+    height: 50px;
+    content: '';
+    background-color: #e6f8f3;
+    border-radius: 50%;
+    margin-left: 90px;
+    line-height: 3.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.head-h2 {
+    margin-left: 70px;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.para-p {
+    font-size: 16px;
+    color: #a3a4a7;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.center1 {
+    width: 50px;
+    height: 50px;
+    content: '';
+    background-color: #fbe9eb;
+    border-radius: 50%;
+    margin-left: 90px;
+    line-height: 3.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.holidays-icon1 {
+    width: 20px;
+    height: 20px;
+    color: #d6293e;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
+
+}
+
+.center2 {
+    width: 50px;
+    height: 50px;
+    content: '';
+    background-color: #fff2e7;
+    border-radius: 50%;
+    margin-left: 90px;
+    line-height: 3.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.holidays-icon2 {
+    width: 20px;
+    height: 20px;
+    color: #fd7e14;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 10px;
+
+}
+
+.center3 {
+    width: 50px;
+    height: 50px;
+    content: '';
+    background-color: #e7f6f8;
+    border-radius: 50%;
+    margin-left: 90px;
+    line-height: 3.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.holidays-icon3 {
+    width: 20px;
+    height: 20px;
+    color: #17a2b8;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 10px;
+
+}
+
+.col-6 {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.heading-h2 {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.picture {
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    
+}
+.picture:hover img{
+    scale: 1.04;
+}
+
+.picture img{
+    display: block;
+    transition: 0.5s all ease;
+}
+.location{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    bottom: 5px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 5;
+    left: 30px;
+    margin-bottom: 10px;
+}
+.heading{
+    padding: 5px 10px;
+    bottom: 10px;
+}
+.head-h5{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+
+}
+.head-h6{
+    line-height: 1.25;
+    font-size: 16px;
+    color:#28c495;
+    font-weight: 700;
+    margin: 0px 10px;
+}
+.small-letter{
+    color: #28c495;
+    font-weight: 500;
+}
+.image-info1{
+    margin-left: 90px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #0b0a12;
+}
+.star-2{
+    color: #f7c32e;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: -7px;
+}
